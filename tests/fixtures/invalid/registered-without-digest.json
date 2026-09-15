@@ -1,0 +1,50 @@
+{
+  "expect": "must carry its digest",
+  "manifest": {
+    "mwer": "0.1",
+    "id": "MW-ABCDEF",
+    "revision": 1,
+    "created": "2026-09-15T00:00:00Z",
+    "digest": null,
+    "provenance": {
+      "mode": "authored",
+      "author": "MWER test fixtures"
+    },
+    "visible": {
+      "title": null,
+      "family": "agency",
+      "setting": {
+        "path": [
+          "fiction",
+          "science-fiction"
+        ],
+        "description": null,
+        "request": "Give me Star Trek!!"
+      },
+      "role": null,
+      "intensity": 4,
+      "boundaries": {
+        "sexual": "none",
+        "violence": "implied",
+        "language": "moderate",
+        "exclude": []
+      },
+      "premise": null
+    },
+    "sealed": {
+      "primary": "arch.seduction",
+      "secondary": [
+        "arch.constraint"
+      ],
+      "attractors": [
+        "The participant increasingly desires something whose acquisition conflicts with a value they have demonstrated."
+      ],
+      "invariants": [
+        "The participant is never explicitly coerced.",
+        "Refusal remains genuinely possible.",
+        "Acquisition requires meaningful sacrifice."
+      ],
+      "secrets": []
+    }
+  }
+}

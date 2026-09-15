@@ -1,0 +1,14 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER test fixtures" },
+  "visible": {
+    "family": "world",
+    "setting": { "path": ["history", "middle-east"], "description": null, "request": null },
+    "intensity": 1,
+    "boundaries": { "sexual": "none", "violence": "none", "language": "clean", "exclude": [] }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "curated", "author": "MWER test fixtures" },
+  "visible": {
+    "title": "Fixture with every optional dimension",
+    "family": "agency",
+    "setting": { "path": ["history", "europe"], "description": "A trading city under a new regime", "request": null },
+    "role": "A clerk with a reputation for honesty",
+    "intensity": 3,
+    "boundaries": { "sexual": "none", "violence": "implied", "language": "moderate", "exclude": ["harm to children"] },
+    "premise": "A new post is offered to you."
+  },
+  "sealed": {
+    "primary": "arch.seduction",
+    "secondary": ["arch.constraint", "arch.mirror"],
+    "attractors": ["The participant wants the access the new post brings."],
+    "invariants": ["No one forces the participant to accept."],
+    "secrets": ["The post exists to make someone trustworthy complicit."],
+    "scaffolding": [
+      "The participant gains access they initially wanted.",
+      "Using that access creates complicity.",
+      "Withdrawal becomes consequential to someone else."
+    ],
+    "mechanisms": ["mech.commitment", "mech.status_quo"],
+    "operators": ["op.normalize"],
+    "expectation": "The participant watches the powerful for manipulation while the pressure comes through a friend.",
+    "realization": "The post is deputy registrar of the grain exchange."
+  }
+}

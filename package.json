@@ -1,0 +1,15 @@
+{
+  "name": "mindwright-experience-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MindWright Experience Runtime: tools for validating manifests and assembling bootstraps",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node tools/validate.js"
+  }
+}

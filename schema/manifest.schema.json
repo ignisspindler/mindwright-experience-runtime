@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ignisspindler/mindwright-experience-runtime/blob/main/schema/manifest.schema.json",
+  "title": "MindWright Experience Manifest v0.1",
+  "description": "A thin semantic score. Rungs S0-S3 are visible, primary/secondary, attractors, invariants/secrets. scaffolding, mechanisms, operators, expectation and realization are independent optional dimensions. Rules that JSON Schema can't express (vocabulary IDs, family of the primary, digest) are enforced by tools/validate.js.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["mwer", "id", "revision", "created", "digest", "provenance", "visible"],
+  "properties": {
+    "mwer": { "const": "0.1" },
+    "id": { "type": ["string", "null"], "pattern": "^MW-[0-9A-F]{6}$" },
+    "revision": { "type": "integer", "minimum": 1 },
+    "created": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z$" },
+    "digest": { "type": ["string", "null"], "pattern": "^sha256:[0-9a-f]{64}$" },
+    "provenance": { "$ref": "#/$defs/provenance" },
+    "visible": { "$ref": "#/$defs/visible" },
+    "sealed": { "$ref": "#/$defs/sealed" }
+  },
+  "$defs": {
+    "text": { "type": "string", "minLength": 1 },
+    "optionalText": { "type": ["string", "null"], "minLength": 1 },
+    "textList": { "type": "array", "items": { "$ref": "#/$defs/text" } },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode"],
+      "properties": {
+        "mode": { "enum": ["authored", "curated", "composed"] },
+        "author": { "$ref": "#/$defs/text" },
+        "composer": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["version", "seed"],
+          "properties": {
+            "version": { "$ref": "#/$defs/text" },
+            "seed": { "$ref": "#/$defs/text" }
+          }
+        },
+        "derived_from": { "type": ["string", "null"] }
+      }
+    },
+    "visible": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["family", "setting", "intensity", "boundaries"],
+      "properties": {
+        "title": { "$ref": "#/$defs/optionalText" },
+        "family": { "enum": ["epistemic", "agency", "identity", "world"] },
+        "setting": { "$ref": "#/$defs/setting" },
+        "role": { "$ref": "#/$defs/optionalText" },
+        "intensity": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "boundaries": { "$ref": "#/$defs/boundaries" },
+        "premise": { "$ref": "#/$defs/optionalText" }
+      }
+    },
+    "setting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path"],
+      "properties": {
+        "path": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } },
+        "description": { "$ref": "#/$defs/optionalText" },
+        "request": { "type": ["string", "null"], "minLength": 1, "maxLength": 500 }
+      }
+    },
+    "boundaries": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sexual", "violence", "language", "exclude"],
+      "properties": {
+        "sexual": { "enum": ["none", "implied", "depicted"] },
+        "violence": { "enum": ["none", "implied", "depicted", "graphic"] },
+        "language": { "enum": ["clean", "moderate", "strong"] },
+        "exclude": { "$ref": "#/$defs/textList" }
+      }
+    },
+    "sealed": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "primary": { "type": "string", "pattern": "^arch\\.[a-z_]+$" },
+        "secondary": {
+          "type": "array",
+          "maxItems": 2,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^arch\\.[a-z_]+$" }
+        },
+        "attractors": { "$ref": "#/$defs/textList" },
+        "invariants": { "$ref": "#/$defs/textList" },
+        "secrets": { "$ref": "#/$defs/textList" },
+        "scaffolding": { "$ref": "#/$defs/textList" },
+        "mechanisms": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^mech\\.[a-z_]+$" }
+        },
+        "operators": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^op\\.[a-z_]+$" }
+        },
+        "expectation": { "$ref": "#/$defs/optionalText" },
+        "realization": { "$ref": "#/$defs/optionalText" }
+      }
+    }
+  }
+}
