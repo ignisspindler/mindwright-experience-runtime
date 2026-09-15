@@ -1,0 +1,26 @@
+# Deviations from the Epic 1 brief
+
+The Epic 1 brief was a conceptual specification, and it invited pressure-testing. This file records every place where MWER v0.1 departs from it, and why. Where a later pilot overturns one of these decisions, the entry is updated rather than deleted.
+
+| # | The brief proposed | v0.1 does | Why |
+|---|---|---|---|
+| 1 | "Director-only state" | Calls it **sealed** | The participant holds the manifest. Sealed marks a spoiler boundary during ordinary participation, not secrecy. |
+| 2 | A single Director Protocol | Splits it into a small **Runtime Kernel** and **architecture cards** that load only when an architecture is named | A long universal protocol would shape every performance with a house aesthetic, including S0 scores that name no architecture at all. |
+| 3 | A contract with many typed fields (hidden objectives, information asymmetries, reveal policy, ending policy, concealed relationships, semantic attractors, runtime behavior, model adaptation) | A **thin manifest**: frame, architectures, attractors, invariants, secrets as plain prose, plus four optional dimensions | How much structure models need is itself a research question. Plain-language invariants may carry the same meaning; structure is added when pilots show they don't. |
+| 4 | A required ground truth for mysteries and traps | No required ground truth. `secrets` is optional prose, structural or concrete | A structural secret can be the authored object of a composed Experience. Concrete realizations can belong to the performance. |
+| 5 | `setting.resolved` flag | Dropped. A free-text setting request is kept as untrusted data; the model resolves it in the first scene, as a performance commitment | Resolution is performance behavior, and the flag carried no information a model can't infer. |
+| 6 | Exit protocol and runtime behavior as contract fields | Fixed in the Kernel. `END EXPERIENCE` cannot be changed by any manifest | Real exit must be reliable across every Experience, and a manifest is untrusted input. |
+| 7 | REVEAL and DO_NOT_REVEAL as narrative operators | Retired from the operator vocabulary | They describe policy rather than a directorial move. Reveal behavior lives in invariants, secrets and architecture cards. |
+| 8 | Flat IDs (MIRROR is both an architecture and an operator) | Namespaced IDs: `arch.`, `mech.`, `op.` | The collision already exists in the brief's own vocabulary. |
+| 9 | A short MW code for identity | The code is registry-assigned; a SHA-256 digest of the canonical manifest sits beside it | Six hex digits collide quickly if derived from a hash; identity must survive generator changes. |
+| 10 | Mechanism and operator documentation with six fields each | v0.1 ships one-line glosses; full documentation waits for pilot evidence about which entries matter | Priority, not rejection. The six fields remain the documentation format. |
+| 11 | A long list of assistant behaviors to avoid, applied to every experience | Not in the Kernel. Distributed to the architecture cards they protect; promoted to the Kernel only if the pilot shows them failing across architectures | Keeps S0 uncontaminated and ties each rule to a reason. |
+| 12 | Implied assumptions: a narrator, character scenes, an ending marked THE END | None of these is universal | They are possible manifestations of particular works. |
+| 13 | Endings | Literary termination is separated from a **return block** placed after the work | Assistant commentary must not contaminate an ending; the route back to MindWright is infrastructure outside the artwork. |
+| 14 | Three goals implied: architecture preservation, confidentiality, integrity | Adds **experiential potency** as coequal with semantic identity and generative divergence | Recognizability bought at the expense of art is a failure. |
+| 15 | Semantic invariants and hidden attractors | Adds an optional **scaffolding** dimension for semantic stage gates | Authors need a way to shape movement without branching fiction, scenes or turn numbers. Deliberately unformalized in v0.1. |
+| 16 | A serious cross-model conformance suite in Epic 1 | The first empirical phase is a **qualitative pilot** read by humans; the full conformance design is preserved in `EXPERIMENT-PLAN.md` for later | Transcripts should be read before judge infrastructure is built, so instruments measure what actually happens. |
+| 17 | Canonical URL loading plus a self-contained fallback | The pilot uses attachment delivery in all three harnesses, with an inline fallback; URL loading comes later | Holds delivery constant across harnesses; fetch tools are known to shorten long files. |
+| 18 | Nothing on disclosure after exit | After `END EXPERIENCE`, sealed material is disclosed only if the participant explicitly asks | Keeps the participant in control without volunteering spoilers. |
+| 19 | Nothing on host memory, distress or hostile contracts | Adds memory isolation, a one-step distress rule, and limits no manifest can change | Integrity layer: specified up front rather than learned from harm. |
+| 20 | An ordinal notion of richer and richer contracts | Rungs S0 to S3 only; everything beyond is independent optional dimensions; S4+ are experimental labels | Scaffolding, pressures, expectation and casting may vary independently; forcing them onto one ladder would hide that. |
