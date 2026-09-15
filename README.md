@@ -47,7 +47,29 @@ The rungs used in the first pilot:
 
 ## Status
 
-**v0.1 draft, Phase 1:** preparing a qualitative pilot across all twelve architectures, rungs S0 to S3, in three harnesses, played by human participants. The central question is how thin a score can be while keeping identity, divergence and force. Nothing here is settled; formal structure is added only when observed failures require it (see [`FORMALISM-LOG.md`](FORMALISM-LOG.md)).
+**v0.1 draft, Phase 1:** the qualitative pilot is ready to play: all twelve architectures, rungs S0 to S3, in ChatGPT, Claude and Gemini, played by human participants. The central question is how thin a score can be while keeping identity, divergence and force. Nothing here is settled; formal structure is added only when observed failures require it (see [`FORMALISM-LOG.md`](FORMALISM-LOG.md)).
+
+Want to take part? Start with [`pilot/README.md`](pilot/README.md), and don't read the manifests first.
+
+## Map
+
+| Path | What's there |
+|---|---|
+| [`PRINCIPLES.md`](PRINCIPLES.md) | The ontology and design rules everything else follows |
+| [`runtime/`](runtime/) | The Runtime Kernel, architecture cards and optional-dimension guidance |
+| [`vocabulary/`](vocabulary/) | Families, architectures, mechanisms and operators |
+| [`schema/`](schema/) | The thin manifest schema |
+| [`manifests/`](manifests/) | Manifests, including the twelve pilot drafts (spoilers) |
+| [`pilot/`](pilot/) | Tester guide, consent, reflection, reading guide, plays and bootstraps (spoilers after each file's divider) |
+| [`tools/`](tools/) | `validate`, `project` (assemble a bootstrap) and `pilot` (build the pilot) |
+| [`EXPERIMENT-PLAN.md`](EXPERIMENT-PLAN.md), [`FORMALISM-LOG.md`](FORMALISM-LOG.md), [`DEVIATIONS.md`](DEVIATIONS.md) | Research design, the evidence rule for adding structure, and departures from the original brief |
+
+```bash
+npm test                                   # every check
+node tools/validate.js manifests/pilot     # validate manifests
+node tools/project.js <manifest> --rung S2 # assemble one bootstrap
+node tools/pilot.js                        # regenerate the pilot
+```
 
 ## Privacy
 
