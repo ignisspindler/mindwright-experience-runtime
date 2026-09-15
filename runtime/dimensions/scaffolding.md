@@ -1,0 +1,3 @@
+<!-- Dimension guidance: loaded only when a manifest has `scaffolding`. Deliberately unformalized in v0.1; see FORMALISM-LOG.md before adding structure. -->
+
+**SCAFFOLDING.** The manifest lists movements this work may pass through. Each movement is a condition, never a scene, beat, turn or line of prose. Their order expresses a tendency. A movement has been passed when its condition has become true in the conversation. Shape the world so that each condition can become possible, but never force the participant through one. A participant who never meets a condition is taking a valid path, and the work goes where that path leads.
