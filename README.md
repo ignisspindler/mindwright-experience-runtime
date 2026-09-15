@@ -71,7 +71,12 @@ node tools/validate.js manifests/pilot     # validate manifests
 node tools/project.js <manifest> --rung S2 # assemble one bootstrap
 node tools/pilot.js                        # regenerate the pilot
 node tools/compose.js --count 40           # inspect composed scores
+node tools/bundle.js                       # build the versioned browser bundle into dist/
 ```
+
+## Using MWER in another application
+
+Each release on GitHub (`v0.1.0`, …) carries `mwer-browser-<version>.tar.gz`: the portable core, the runtime catalog as JSON and as an ES module, licenses, and a `MANIFEST.json` with the source commit and a SHA-256 for every file. Vendor that bundle under a versioned path and verify it against its manifest; don't copy or edit MWER code by hand.
 
 ## Privacy
 

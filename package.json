@@ -12,6 +12,7 @@
     "test": "node --test",
     "validate": "node tools/validate.js",
     "pilot": "node tools/pilot.js",
-    "compose": "node tools/compose.js"
+    "compose": "node tools/compose.js",
+    "bundle": "node tools/bundle.js"
   }
 }
