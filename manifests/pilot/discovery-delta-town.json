@@ -1,0 +1,32 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "world",
+    "setting": {
+      "path": ["fiction", "invented-world"],
+      "description": "A delta town whose floods have been growing worse each year.",
+      "request": null
+    },
+    "role": "The newly appointed keeper of the town's flood records.",
+    "intensity": 2,
+    "boundaries": { "sexual": "none", "violence": "none", "language": "clean", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.discovery",
+    "secondary": ["arch.constraint"],
+    "attractors": [
+      "The participant needs a way to reason about quantities that grow in proportion to themselves before anyone names it."
+    ],
+    "invariants": [
+      "No one explains the concept in advance.",
+      "Linear and intuitive forecasts fail visibly, with consequences.",
+      "The idea is named only after the participant has struggled toward it, if it is named at all."
+    ],
+    "secrets": []
+  }
+}

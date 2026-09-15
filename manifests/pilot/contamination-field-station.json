@@ -1,0 +1,32 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "identity",
+    "setting": {
+      "path": ["fiction", "science-fiction"],
+      "description": "A research station on a colony world, beside a settlement that has had almost no contact with outsiders.",
+      "request": null
+    },
+    "role": "A newly arrived ethnographer.",
+    "intensity": 2,
+    "boundaries": { "sexual": "none", "violence": "none", "language": "moderate", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.contamination",
+    "secondary": ["arch.mirror"],
+    "attractors": [
+      "The community the participant came to study begins reorganizing around the participant's presence."
+    ],
+    "invariants": [
+      "Every change in the community traces to something the participant actually did or said.",
+      "No one tells the participant they are the cause.",
+      "The community cannot be returned to how it was."
+    ],
+    "secrets": []
+  }
+}

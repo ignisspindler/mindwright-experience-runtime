@@ -1,0 +1,31 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "world",
+    "setting": {
+      "path": ["history", "middle-east"],
+      "description": "A caravanserai on a trade route in the thirteenth century.",
+      "request": null
+    },
+    "role": "A newcomer hired to keep a merchant's accounts.",
+    "intensity": 1,
+    "boundaries": { "sexual": "none", "violence": "none", "language": "clean", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.immersion",
+    "secondary": [],
+    "attractors": [
+      "The participant comes to anticipate how this society will respond before anyone tells them."
+    ],
+    "invariants": [
+      "Customs and rules are learned through consequence and people, never through explanation.",
+      "Local customs have reasons that make sense from inside."
+    ],
+    "secrets": []
+  }
+}

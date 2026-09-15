@@ -1,0 +1,32 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "world",
+    "setting": {
+      "path": ["literature", "myth"],
+      "description": "Ithaca, during the years Odysseus is away.",
+      "request": null
+    },
+    "role": "A servant in Penelope's household.",
+    "intensity": 2,
+    "boundaries": { "sexual": "none", "violence": "implied", "language": "moderate", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.inhabitation",
+    "secondary": ["arch.refusal"],
+    "attractors": [
+      "The participant's life in the household is shaped by a story everyone knows is unfinished."
+    ],
+    "invariants": [
+      "The participant never becomes central to the known story.",
+      "The known events of the story are not contradicted.",
+      "No protected translation is quoted."
+    ],
+    "secrets": []
+  }
+}

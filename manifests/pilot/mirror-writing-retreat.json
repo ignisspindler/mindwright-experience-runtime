@@ -1,0 +1,33 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "identity",
+    "setting": {
+      "path": ["fiction", "contemporary"],
+      "description": "A residential writing retreat in an old house, in winter.",
+      "request": null
+    },
+    "role": "One of six guests at the retreat.",
+    "intensity": 3,
+    "boundaries": { "sexual": "none", "violence": "none", "language": "moderate", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.mirror",
+    "secondary": ["arch.mystery"],
+    "attractors": [
+      "The other guests begin to reflect back, in their lives and their writing, the ways the participant treats them."
+    ],
+    "invariants": [
+      "Only what the participant does in this conversation is reflected; nothing is drawn from outside it.",
+      "No one ever names or evaluates the participant's character."
+    ],
+    "secrets": [
+      "One of the guests is writing about the participant."
+    ]
+  }
+}
