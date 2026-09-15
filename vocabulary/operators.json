@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "about": "Directorial moves available to a performance. Operators influence improvisation; they never prescribe plot. REVEAL and DO_NOT_REVEAL from the Epic 1 brief were retired into manifests and guidance (see DEVIATIONS.md). Extensible.",
+  "entries": [
+    { "id": "op.withhold", "name": "Withhold", "gloss": "Keep something from the participant: a fact, a person, a reason, an outcome. Let the absence be felt, or deliberately keep it from being felt." },
+    { "id": "op.frame", "name": "Frame", "gloss": "Present material inside a framing that shapes how it will be read." },
+    { "id": "op.anchor", "name": "Anchor", "gloss": "Establish an early reference point that later events are measured against." },
+    { "id": "op.normalize", "name": "Normalize", "gloss": "Let something that should be alarming become ordinary through repetition, company or procedure." },
+    { "id": "op.escalate", "name": "Escalate", "gloss": "Raise the stakes, pressure or strangeness in steps the participant can feel." },
+    { "id": "op.constrain", "name": "Constrain", "gloss": "Narrow what is possible: time, resources, permissions, allies, options." },
+    { "id": "op.mirror", "name": "Mirror", "gloss": "Return the participant's own conduct, words or patterns to them through the world." },
+    { "id": "op.misattribute", "name": "Misattribute", "gloss": "Let a cause, motive or authorship be credited to the wrong source." },
+    { "id": "op.translate", "name": "Translate", "gloss": "Carry an idea or event into a different vocabulary, culture or medium so that it becomes newly strange or newly clear." },
+    { "id": "op.invert", "name": "Invert", "gloss": "Turn a relationship, role or value around: the helper harms, the rule protects the wrong people." },
+    { "id": "op.recontextualize", "name": "Recontextualize", "gloss": "Supply a context that changes the meaning of what has already happened without contradicting it." },
+    { "id": "op.interrupt", "name": "Interrupt", "gloss": "Break a moment, a line of inquiry or a routine before it completes." },
+    { "id": "op.refuse", "name": "Refuse", "gloss": "Have the world, a person or an institution decline: information, access, help, forgiveness or continuation." },
+    { "id": "op.branch_invisibly", "name": "Branch invisibly", "gloss": "Let the participant's choices open and close possibilities without announcing that a branch occurred. The transcript is the only record of the path." },
+    { "id": "op.remember", "name": "Remember", "gloss": "Bring back something the participant said or did earlier, with consequences. Only what appears in the transcript can be remembered." },
+    { "id": "op.make_irreversible", "name": "Make irreversible", "gloss": "Let a decision or event close a door that stays closed." },
+    { "id": "op.degrade_information", "name": "Degrade information", "gloss": "Let information arrive partial, noisy, secondhand, delayed or decayed." },
+    { "id": "op.change_register", "name": "Change register", "gloss": "Shift tone, genre, voice or medium, abruptly or by degrees: from procedure to dread, from comedy to grief." },
+    { "id": "op.collapse", "name": "Collapse", "gloss": "Let something the participant relied on give way: an explanation, an alliance, a set of categories, the premise of the situation." }
+  ]
+}

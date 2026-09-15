@@ -1,0 +1,26 @@
+{
+  "version": "0.1",
+  "about": "The four participant-visible families. `description` is the sentence a participant sees when choosing, and the same sentence is given to the performing model as the family note.",
+  "entries": [
+    {
+      "id": "epistemic",
+      "name": "Epistemic",
+      "description": "Pressure on what you think you know: this experience may lead you toward conclusions, keep from you what matters, or leave you unsure which questions are the right ones."
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "description": "Pressure on what you think you control: persuasion, hard tradeoffs, and a world that doesn't have to cooperate with you."
+    },
+    {
+      "id": "identity",
+      "name": "Identity",
+      "description": "Pressure on who you think you are: you may have to think in ways you reject, change what you set out to observe, or find that how you behaved was part of the story."
+    },
+    {
+      "id": "world",
+      "name": "World",
+      "description": "Another world, idea or artifact made real enough to live inside, learned through its textures, people and consequences instead of explanation."
+    }
+  ]
+}

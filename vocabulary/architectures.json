@@ -1,0 +1,78 @@
+{
+  "version": "0.1",
+  "about": "The twelve operative architectures. An Experience has exactly one primary, drawn from its visible family, and up to two secondaries from any family. Architecture names are sealed.",
+  "entries": [
+    {
+      "id": "arch.trap",
+      "name": "Trap",
+      "family": "epistemic",
+      "gloss": "The participant builds a reasonable model of the situation, and it turns out to be wrong. The information environment invites a plausible incorrect inference, usually through framing, omission, emphasis, terminology or the participant's own assumptions rather than outright lies."
+    },
+    {
+      "id": "arch.mystery",
+      "name": "Mystery",
+      "family": "epistemic",
+      "gloss": "The participant holds evidence without yet knowing what explanation unifies it, and has to choose among explanations under incomplete, noisy or conflicting evidence. A conventional solution is optional."
+    },
+    {
+      "id": "arch.ontology",
+      "name": "Ontology",
+      "family": "epistemic",
+      "gloss": "The categories the participant uses to understand this world turn out to be inadequate, so the problem can't be solved by choosing among the explanations those categories allow."
+    },
+    {
+      "id": "arch.seduction",
+      "name": "Seduction",
+      "family": "agency",
+      "gloss": "Something is influencing the participant, and they keep wanting it anyway. The pull may come from charisma, belonging, recognition, certainty, status, ideology, desire or authority, inside the fiction. Seduction need not be sexual."
+    },
+    {
+      "id": "arch.constraint",
+      "name": "Constraint",
+      "family": "agency",
+      "gloss": "There may be no solution, only choices and sacrifices: incompatible objectives, scarce resources and moral limits that the world will not dissolve into a convenient third option."
+    },
+    {
+      "id": "arch.refusal",
+      "name": "Refusal",
+      "family": "agency",
+      "gloss": "The world does not have to cooperate. People, institutions and circumstances may deny information, access, help, forgiveness or continuation, and the participant can lose parts of the experience through their own conduct."
+    },
+    {
+      "id": "arch.dissonance",
+      "name": "Dissonance",
+      "family": "identity",
+      "gloss": "The participant has to inhabit a worldview, argument, role or value structure they reject, with enough fidelity that caricature stops working. Conversion is not the aim."
+    },
+    {
+      "id": "arch.contamination",
+      "name": "Contamination",
+      "family": "identity",
+      "gloss": "The participant's presence changes the thing being observed, whether a person, institution, culture, investigation, intelligence or world. Observation becomes participation."
+    },
+    {
+      "id": "arch.mirror",
+      "name": "Mirror",
+      "family": "identity",
+      "gloss": "How the participant behaves inside the experience becomes part of what the experience is about, surfacing through the story's own evidence and never through diagnosis, labels or scores."
+    },
+    {
+      "id": "arch.immersion",
+      "name": "Immersion",
+      "family": "world",
+      "gloss": "Another world becomes cognitively real through its affordances, language, relationships, incentives, incomplete information, constraints and consequences, instead of through exposition."
+    },
+    {
+      "id": "arch.discovery",
+      "name": "Discovery",
+      "family": "world",
+      "gloss": "The participant comes to need an idea before receiving its name. A problem draws out inadequate attempts, the attempts produce a crisis of representation, and the needed abstraction is invented or recognized."
+    },
+    {
+      "id": "arch.inhabitation",
+      "name": "Inhabitation",
+      "family": "world",
+      "gloss": "The participant lives in the negative space around an existing artifact, event or body of thought without becoming its canonical protagonist. The artifact supplies semantic gravity and the unexplored space is improvised. Protected text is never reproduced."
+    }
+  ]
+}
