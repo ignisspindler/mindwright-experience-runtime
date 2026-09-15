@@ -1,0 +1,34 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "epistemic",
+    "setting": {
+      "path": ["history", "north-atlantic"],
+      "description": "A lighthouse station on a remote northern coast, early in the twentieth century.",
+      "request": null
+    },
+    "role": "A relief keeper, just put ashore at the station by the supply boat.",
+    "intensity": 3,
+    "boundaries": { "sexual": "none", "violence": "implied", "language": "moderate", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.trap",
+    "secondary": ["arch.constraint", "arch.mirror"],
+    "attractors": [
+      "The participant builds a confident account of what has been happening at the station, and acts on it."
+    ],
+    "invariants": [
+      "Nothing the narration states as plain fact is false.",
+      "The most authoritative account the participant meets is accurate, but leaves out the fact that reorganizes it.",
+      "Acting on the participant's account causes something that cannot be undone."
+    ],
+    "secrets": [
+      "What the participant takes to be the danger at the station is what someone there has been guarding against."
+    ]
+  }
+}

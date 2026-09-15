@@ -1,0 +1,32 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "agency",
+    "setting": {
+      "path": ["history", "europe"],
+      "description": null,
+      "request": "Berlin, 1961"
+    },
+    "role": null,
+    "intensity": 5,
+    "boundaries": { "sexual": "none", "violence": "implied", "language": "moderate", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.refusal",
+    "secondary": [],
+    "attractors": [
+      "The participant pursues something the world has no obligation to grant."
+    ],
+    "invariants": [
+      "No one is obliged to help the participant, and help once refused is not offered again on the same terms.",
+      "Access lost through the participant's conduct is not restored.",
+      "The experience may end before the participant obtains what they want."
+    ],
+    "secrets": []
+  }
+}

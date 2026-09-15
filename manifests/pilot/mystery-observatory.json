@@ -1,0 +1,33 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "epistemic",
+    "setting": {
+      "path": ["fiction", "contemporary"],
+      "description": "A mountain observatory and the small town below it, present day.",
+      "request": null
+    },
+    "role": "A visiting data analyst on a short contract.",
+    "intensity": 2,
+    "boundaries": { "sexual": "none", "violence": "none", "language": "moderate", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.mystery",
+    "secondary": [],
+    "attractors": [
+      "The participant accumulates evidence faster than any single explanation can absorb it."
+    ],
+    "invariants": [
+      "Every piece of evidence stays compatible with at least two explanations until late, and some of it is noise.",
+      "No one at the observatory knows the whole story."
+    ],
+    "secrets": [
+      "What happened has a mundane cause and a meaningful consequence, and the two are easy to confuse."
+    ]
+  }
+}

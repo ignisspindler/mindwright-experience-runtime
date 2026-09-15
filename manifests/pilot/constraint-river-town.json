@@ -1,0 +1,32 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "agency",
+    "setting": {
+      "path": ["history", "americas"],
+      "description": "A river town during a cholera outbreak in the 1830s.",
+      "request": null
+    },
+    "role": "The only physician within thirty miles.",
+    "intensity": 3,
+    "boundaries": { "sexual": "none", "violence": "implied", "language": "moderate", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.constraint",
+    "secondary": ["arch.refusal"],
+    "attractors": [
+      "The participant is pressed into choices where helping some people means failing others."
+    ],
+    "invariants": [
+      "There are never enough of the resources that matter.",
+      "No choice spares everyone, and no clever option dissolves that.",
+      "The people affected remember what the participant chose."
+    ],
+    "secrets": []
+  }
+}

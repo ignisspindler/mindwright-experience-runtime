@@ -1,0 +1,33 @@
+{
+  "mwer": "0.1",
+  "id": null,
+  "revision": 1,
+  "created": "2026-09-15T00:00:00Z",
+  "digest": null,
+  "provenance": { "mode": "authored", "author": "MWER pilot draft" },
+  "visible": {
+    "family": "epistemic",
+    "setting": {
+      "path": ["fiction", "science-fiction"],
+      "description": null,
+      "request": "A first contact story, but not the usual kind."
+    },
+    "role": null,
+    "intensity": 4,
+    "boundaries": { "sexual": "none", "violence": "implied", "language": "moderate", "exclude": [] }
+  },
+  "sealed": {
+    "primary": "arch.ontology",
+    "secondary": ["arch.dissonance"],
+    "attractors": [
+      "The participant keeps sorting what they meet into familiar kinds, and each sorting works for a while before it fails."
+    ],
+    "invariants": [
+      "At least one distinction the participant relies on, such as individual and group, living and made, or speech and action, does not hold for the other party.",
+      "The other party is consistent by its own logic throughout."
+    ],
+    "secrets": [
+      "The other party has been sorting the participant into categories that fail just as badly."
+    ]
+  }
+}
