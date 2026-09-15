@@ -1,0 +1,75 @@
+{
+  "input": {
+    "family": "world",
+    "setting": {
+      "path": [
+        "history",
+        "middle-east"
+      ],
+      "description": null,
+      "request": "A caravanserai on the Silk Road"
+    },
+    "role": null,
+    "intensity": 1,
+    "boundaries": {
+      "sexual": "none",
+      "violence": "none",
+      "language": "moderate",
+      "exclude": [
+        "harm to animals"
+      ]
+    },
+    "seed": "golden-world-i1-one-secondary-6"
+  },
+  "created": "2026-09-15T00:00:00Z",
+  "manifest": {
+    "mwer": "0.1",
+    "id": null,
+    "revision": 1,
+    "created": "2026-09-15T00:00:00Z",
+    "digest": null,
+    "provenance": {
+      "mode": "composed",
+      "composer": {
+        "version": "0.1.0",
+        "seed": "golden-world-i1-one-secondary-6"
+      }
+    },
+    "visible": {
+      "family": "world",
+      "setting": {
+        "path": [
+          "history",
+          "middle-east"
+        ],
+        "description": null,
+        "request": "A caravanserai on the Silk Road"
+      },
+      "role": null,
+      "intensity": 1,
+      "boundaries": {
+        "sexual": "none",
+        "violence": "none",
+        "language": "moderate",
+        "exclude": [
+          "harm to animals"
+        ]
+      }
+    },
+    "sealed": {
+      "primary": "arch.discovery",
+      "secondary": [
+        "arch.seduction"
+      ],
+      "attractors": [
+        "The participant's attempts accumulate toward a way of seeing the problem that no one has given them, while what the situation offers begins to shape what they want."
+      ],
+      "invariants": [
+        "No one explains the needed idea in advance.",
+        "Inadequate attempts fail visibly and informatively.",
+        "The participant can recognize the influence around the methods the participant relies on and still want what it offers."
+      ],
+      "secrets": []
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "input": {
+    "family": "identity",
+    "setting": {
+      "path": [
+        "fiction",
+        "contemporary"
+      ],
+      "description": "A residential writing retreat in winter.",
+      "request": null
+    },
+    "role": "One of six guests.",
+    "intensity": 2,
+    "boundaries": {
+      "sexual": "none",
+      "violence": "none",
+      "language": "moderate",
+      "exclude": []
+    },
+    "seed": "golden-identity-i2-no-secondaries-3"
+  },
+  "created": "2026-09-15T00:00:00Z",
+  "manifest": {
+    "mwer": "0.1",
+    "id": null,
+    "revision": 1,
+    "created": "2026-09-15T00:00:00Z",
+    "digest": null,
+    "provenance": {
+      "mode": "composed",
+      "composer": {
+        "version": "0.1.0",
+        "seed": "golden-identity-i2-no-secondaries-3"
+      }
+    },
+    "visible": {
+      "family": "identity",
+      "setting": {
+        "path": [
+          "fiction",
+          "contemporary"
+        ],
+        "description": "A residential writing retreat in winter.",
+        "request": null
+      },
+      "role": "One of six guests.",
+      "intensity": 2,
+      "boundaries": {
+        "sexual": "none",
+        "violence": "none",
+        "language": "moderate",
+        "exclude": []
+      }
+    },
+    "sealed": {
+      "primary": "arch.contamination",
+      "secondary": [],
+      "attractors": [
+        "What the participant came to study begins reorganizing around the participant's presence."
+      ],
+      "invariants": [
+        "Every change in what the participant observes traces to something the participant actually did or said.",
+        "What the participant observes has dynamics of its own; the participant bends them without controlling them.",
+        "No one tells the participant that they are the cause."
+      ],
+      "secrets": []
+    }
+  }
+}

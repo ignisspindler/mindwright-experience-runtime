@@ -16,7 +16,11 @@ A failure qualifies when it recurs across at least two models and at least two E
 
 ## Log
 
-*No entries yet.*
+### 2026-09-15: Composer grammar with two binding slots and intensity eligibility
+- Failure observed: not a pilot failure. The composer brief required secondaries to shape one semantic landscape instead of adding free-standing slogans, and independently written sentences from two architectures had no way to refer to the same thing. This is the risk the deferred "typed semantic roles" and "statement templates" rows anticipated.
+- Evidence: design requirement for composer 0.1.0; no pilot data yet.
+- Cheaper fixes tried: plain concatenation of per-architecture sentences was rejected by the brief. Typed roles, provides/requires, feature vocabularies and pairwise templates were all judged heavier than needed.
+- Change: `composer/grammar.json` gives each architecture two phrases, `object` and `engagement`, and secondary statements may use exactly those two slots, which always resolve to the primary's phrases. No other substitution exists. A fragment may carry an intensity range. Each primary has one `core` invariant that is always included, and TRAP, MYSTERY and ONTOLOGY always carry a secret. No compatibility exclusions. The pilot should test whether these composed scores hold identity before anything more is added.
 
 ---
 
@@ -31,7 +35,7 @@ These were proposed during design and are not built. Each one names the failure 
 | **Feature vocabulary and compatibility constraints** | Particular architecture pairs repeatedly produce incoherent or self-contradicting performances. Start with a hand-kept list of excluded pairs; move to features only if that list becomes unmaintainable. |
 | **Affinity weights** | Uniform sampling produces measurably weaker identity, potency or integrity for some combinations than for others. |
 | **Backtracking or constraint solving** | Simple sample-then-validate composition rejects too many draws. |
-| **Statement templates with slots** | Plain phrasebook sentences are too generic to distinguish sibling Experiences, or need setting-specific wording. |
+| **Statement templates with slots** | *Partly introduced in composer 0.1.0: two fixed slots only (see the log above).* A richer slot system would need evidence that composed sentences are too generic to distinguish sibling Experiences, or need setting-specific wording. |
 | **Attachment targets for mechanisms and operators** | Listed mechanisms are applied to the wrong thing, or applied in ways that break invariants. |
 | **Second-order expectation primitives** | Suspicious participants neutralize the architecture even with frame-awareness guidance, and a prose expectation statement fixes it. |
 | **Dual-reading narration constraint** | Late reveals of structural secrets read as arbitrary or contradictory even with the "earn reinterpretation retroactively" guidance. |

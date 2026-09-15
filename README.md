@@ -59,6 +59,7 @@ Want to take part? Start with [`pilot/README.md`](pilot/README.md), and don't re
 | [`runtime/`](runtime/) | The Runtime Kernel, architecture cards and optional-dimension guidance |
 | [`vocabulary/`](vocabulary/) | Families, architectures, mechanisms and operators |
 | [`schema/`](schema/) | The thin manifest schema |
+| [`composer/`](composer/) | The composition grammar the deterministic composer uses to write new thin scores from a participant's choices and a seed |
 | [`manifests/`](manifests/) | Manifests, including the twelve pilot drafts (spoilers) |
 | [`pilot/`](pilot/) | Tester guide, consent, reflection, reading guide, plays and bootstraps (spoilers after each file's divider) |
 | [`tools/`](tools/) | `validate`, `project` (assemble a bootstrap) and `pilot` (build the pilot). The semantics live in `tools/core/`, which runs in Node or a browser from supplied data; `tools/lib/` adapts it to this repository's files |
@@ -69,6 +70,7 @@ npm test                                   # every check
 node tools/validate.js manifests/pilot     # validate manifests
 node tools/project.js <manifest> --rung S2 # assemble one bootstrap
 node tools/pilot.js                        # regenerate the pilot
+node tools/compose.js --count 40           # inspect composed scores
 ```
 
 ## Privacy

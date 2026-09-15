@@ -6,6 +6,10 @@ export { canonicalJSON, computeDigest, DIMENSION_FIELDS, RUNGS, truncate, valida
 export {
   assembleBootstrap, cardSection, countWords, DEFAULT_RETURN_URL, MODEL_DIVIDER, prefaceLeaks, RUNTIME_VERSION, stripComments,
 } from './bootstrap.js';
+export {
+  bindToPrimary, COMPOSER_VERSION, ComposerInputError, composeManifest, composeSealed, normalizeComposerInput, validateGrammar,
+} from './composer.js';
+export { createRandom, RANDOM_ALGORITHM } from './random.js';
 export { checkSchema } from './schema-check.js';
 export { sha256Hex } from './sha256.js';
 export { indexVocabulary, VOCABULARY_KINDS } from './vocabulary.js';

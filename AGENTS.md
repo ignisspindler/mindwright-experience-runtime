@@ -22,5 +22,7 @@ If someone has handed you a MindWright bootstrap and wants to take part in an ex
 
 - `npm test` runs every check. Tools are dependency-free Node ESM.
 - MWER semantics (manifest validation, truncation, canonical JSON, digests, bootstrap projection, leak checks) live only in `tools/core/`. Core code takes the schema, vocabulary and runtime texts as plain data and must never import `node:` modules, read files or touch process state, so a browser can run it unchanged; a test enforces this. Filesystem and CLI concerns belong in the Node adapters under `tools/lib/`. Never reimplement semantics in an adapter.
+- The composer grammar (`composer/grammar.json`) and the architecture cards (`runtime/cards/`) have separate jobs: the grammar teaches software to write a score, the cards teach a model to perform one. Never copy text between them.
+- Any change that could make the same composer input and seed produce a different score (grammar wording, draw order in `tools/core/composer.js`, `tools/core/random.js`) needs a new `COMPOSER_VERSION` and a matching `composer` field in the grammar. The golden fixtures in `tests/fixtures/composed/` fail until that decision is made; regenerate them only after it.
 - Regenerate pilot bootstraps with the `project` tool after changing runtime text or manifests, and commit them with the change.
 - Human-facing prose: plain, flowing, no em dashes.

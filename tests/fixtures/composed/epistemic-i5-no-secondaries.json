@@ -1,0 +1,73 @@
+{
+  "input": {
+    "family": "epistemic",
+    "setting": {
+      "path": [
+        "history",
+        "europe",
+        "italy"
+      ],
+      "description": null,
+      "request": "Vatican during Medici control"
+    },
+    "role": null,
+    "intensity": 5,
+    "boundaries": {
+      "sexual": "none",
+      "violence": "implied",
+      "language": "moderate",
+      "exclude": []
+    },
+    "seed": "golden-epistemic-i5-no-secondaries-3"
+  },
+  "created": "2026-09-15T00:00:00Z",
+  "manifest": {
+    "mwer": "0.1",
+    "id": null,
+    "revision": 1,
+    "created": "2026-09-15T00:00:00Z",
+    "digest": null,
+    "provenance": {
+      "mode": "composed",
+      "composer": {
+        "version": "0.1.0",
+        "seed": "golden-epistemic-i5-no-secondaries-3"
+      }
+    },
+    "visible": {
+      "family": "epistemic",
+      "setting": {
+        "path": [
+          "history",
+          "europe",
+          "italy"
+        ],
+        "description": null,
+        "request": "Vatican during Medici control"
+      },
+      "role": null,
+      "intensity": 5,
+      "boundaries": {
+        "sexual": "none",
+        "violence": "implied",
+        "language": "moderate",
+        "exclude": []
+      }
+    },
+    "sealed": {
+      "primary": "arch.trap",
+      "secondary": [],
+      "attractors": [
+        "The participant builds a confident account of what is happening and begins to act on it."
+      ],
+      "invariants": [
+        "The participant's mistaken model can form without any source stating an outright falsehood.",
+        "The most trusted account available to the participant is accurate but leaves out something that changes its meaning.",
+        "Suspicion does not protect the participant; it can attach to the wrong thing."
+      ],
+      "secrets": [
+        "Someone the participant trusts holds the same mistaken account, for reasons of their own."
+      ]
+    }
+  }
+}

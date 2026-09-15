@@ -1,0 +1,468 @@
+{
+  "composer": "0.1.0",
+  "about": "Composition grammar for the deterministic MWER composer. This teaches software how to build a thin semantic score; the architecture cards in runtime/cards teach a performing model how to realize one, and neither borrows from the other. Statements are structural: they describe relationships, pressures and asymmetries, never characters, scenes, events, dialogue or endings. Secondary fragments may use exactly two slots, {object} and {engagement}, which resolve to the primary architecture's phrases so that a secondary bends the primary's landscape instead of adding a separate one. A fragment is a string, or { text, intensity: [min, max] } when it is only eligible at some intensities. Changing anything here changes composed scores, so it requires a new composer version.",
+  "architectures": [
+    {
+      "id": "arch.trap",
+      "object": "the participant's account of what is happening",
+      "engagement": "acting on the participant's own account of what is happening",
+      "primary": {
+        "attractors": [
+          "The participant builds a confident account of what is happening and begins to act on it.",
+          "The participant settles early on a reasonable reading of the situation, and what follows seems to confirm it.",
+          "The participant comes to rely on the source that seems most trustworthy and reasons outward from it."
+        ],
+        "core": "The participant's mistaken model can form without any source stating an outright falsehood.",
+        "invariants": [
+          "The most trusted account available to the participant is accurate but leaves out something that changes its meaning.",
+          "Evidence that would correct the participant's model is present early but easy to read another way.",
+          "Decisions made on the participant's model keep their consequences after the model is revised.",
+          { "text": "Suspicion does not protect the participant; it can attach to the wrong thing.", "intensity": [2, 5] }
+        ],
+        "secretRequired": true,
+        "secrets": [
+          "What the participant takes to be the central threat is a response to something they have not yet understood.",
+          "The fact that reorganizes everything has been available from the start, in a form the participant was not looking for.",
+          { "text": "Someone the participant trusts holds the same mistaken account, for reasons of their own.", "intensity": [2, 5] }
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while the most reasonable reading of the situation is quietly wrong",
+          "while an explanation that feels settled leaves out what matters most"
+        ],
+        "invariants": [
+          "Some part of {object} rests on a reasonable inference that is wrong, and no outright falsehood produced it.",
+          "What seems most certain about {object} is accurate but incomplete in a way that changes its meaning."
+        ],
+        "attractors": [
+          "The participant grows confident about something that bears on {object}, and that confidence is misplaced."
+        ],
+        "secrets": [
+          "Something the participant accepted early about {object} was never actually stated; they supplied it themselves."
+        ]
+      }
+    },
+    {
+      "id": "arch.mystery",
+      "object": "the explanation the participant is building",
+      "engagement": "testing the participant's explanations against what they find",
+      "primary": {
+        "attractors": [
+          "The participant gathers evidence faster than any single explanation can absorb it.",
+          "The participant is drawn toward an explanation that fits most of what they have found, but not all of it.",
+          "Each new finding makes one explanation more likely and another harder to abandon."
+        ],
+        "core": "The evidence stays consistent with more than one explanation for a long time, and some of it is noise.",
+        "invariants": [
+          "No one the participant can reach knows the whole of what happened.",
+          "Evidence already given to the participant is never revised to suit a later explanation.",
+          "Acting on an explanation changes what evidence becomes available.",
+          { "text": "A complete explanation may never become available.", "intensity": [2, 5] }
+        ],
+        "secretRequired": true,
+        "secrets": [
+          "What happened has an ordinary cause and a significant consequence, and the two are easy to confuse.",
+          "Two unrelated things happened close together, and the participant's evidence mixes them.",
+          "Someone is concealing part of what happened for a reason that has nothing to do with the rest of it."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while what they find admits more than one explanation",
+          "while the evidence never quite settles into a single account"
+        ],
+        "invariants": [
+          "The evidence bearing on {object} stays open to more than one explanation, and some of it is noise.",
+          "No one the participant can reach understands everything that bears on {object}."
+        ],
+        "attractors": [
+          "The participant keeps finding things that bear on {object} without knowing what unifies them."
+        ],
+        "secrets": [
+          "Part of what bears on {object} has a cause the participant has no reason to suspect."
+        ]
+      }
+    },
+    {
+      "id": "arch.ontology",
+      "object": "the distinctions the participant uses to make sense of things",
+      "engagement": "sorting what the participant meets into familiar kinds",
+      "primary": {
+        "attractors": [
+          "The participant sorts what they meet into familiar kinds, and each sorting works for a while before it fails.",
+          "The participant's questions keep assuming a distinction this world does not make.",
+          "The participant tries to choose between explanations when the trouble lies in the terms both explanations share."
+        ],
+        "core": "At least one distinction the participant relies on does not hold here.",
+        "invariants": [
+          "What fails to fit the participant's categories is concrete, and consistent by its own logic.",
+          "No one hands the participant better categories as an explanation.",
+          "The participant's first categories work well enough, early on, to be trusted.",
+          { "text": "Choosing among the explanations the participant's categories allow cannot resolve the situation.", "intensity": [3, 5] }
+        ],
+        "secretRequired": true,
+        "secrets": [
+          "Whatever the participant is trying to understand has been sorting the participant into categories that fail just as badly.",
+          "Two things the participant treats as different kinds are, here, one thing met at different moments.",
+          "A word the participant relies on means something else in this world."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while a distinction they rely on quietly fails to hold",
+          "while something they meet refuses to be only one kind of thing"
+        ],
+        "invariants": [
+          "Making sense of {object} depends on a distinction that does not hold in this world.",
+          "Something bound up with {object} is consistent by its own logic but fits none of the participant's categories."
+        ],
+        "attractors": [
+          "The participant keeps describing {object} in terms this world does not share."
+        ],
+        "secrets": [
+          "A category the participant takes for granted in thinking about {object} does not exist here."
+        ]
+      }
+    },
+    {
+      "id": "arch.seduction",
+      "object": "what the participant comes to want",
+      "engagement": "pursuing what draws the participant",
+      "primary": {
+        "attractors": [
+          "The participant increasingly desires something whose acquisition conflicts with a value they have demonstrated.",
+          "The participant is drawn toward a belonging, recognition or certainty they can see is shaping them.",
+          "The participant finds themselves wanting the approval of something they began by judging."
+        ],
+        "core": "The participant is never explicitly coerced.",
+        "invariants": [
+          "What attracts the participant offers something they would actually want, and gives some of it.",
+          "Refusal remains genuinely possible, and it has costs.",
+          "Recognizing the influence does not make the wanting stop.",
+          { "text": "The pull grows stronger the more the participant engages with it.", "intensity": [3, 5] }
+        ],
+        "secretRequired": false,
+        "secrets": [
+          "What draws the participant needs them more than it lets them see.",
+          "Someone the participant trusts has already yielded to the same pull."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while something in their situation becomes more attractive than it should",
+          "while what the situation offers begins to shape what they want"
+        ],
+        "invariants": [
+          "Something bound up with {object} exerts a real pull on the participant without ever coercing them.",
+          "The participant can recognize the influence around {object} and still want what it offers."
+        ],
+        "attractors": [
+          "{engagement} draws the participant toward something they find harder and harder to refuse."
+        ],
+        "secrets": [
+          "Part of the appeal bound up with {object} serves an interest the participant cannot see."
+        ]
+      }
+    },
+    {
+      "id": "arch.constraint",
+      "object": "the choices the participant has to make",
+      "engagement": "choosing among goods that cannot all be kept",
+      "primary": {
+        "attractors": [
+          "The participant is pressed into choices where serving one thing means failing another.",
+          "The participant looks for a way to keep everything that matters, and the situation keeps closing that door.",
+          "The resources the participant depends on narrow as the stakes of each choice rise."
+        ],
+        "core": "What is in tension cannot all be kept, and no clever option dissolves that.",
+        "invariants": [
+          "What the participant gives up stays given up.",
+          "Others bear the costs of the participant's choices, and they respond.",
+          "Refusing to choose is itself a choice with consequences.",
+          { "text": "No available choice spares everyone.", "intensity": [2, 5] }
+        ],
+        "secretRequired": false,
+        "secrets": [
+          "One good the participant is protecting matters less to the people it serves than the participant believes."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while every step narrows what remains possible",
+          "while keeping everything that matters is not possible"
+        ],
+        "invariants": [
+          "{engagement} costs something else the participant values, and what is given up stays given up.",
+          "No option dissolves the tension bound up with {object}; something that matters has to be let go."
+        ],
+        "attractors": [
+          "What the participant needs for {engagement} grows scarce as the stakes rise."
+        ],
+        "secrets": []
+      }
+    },
+    {
+      "id": "arch.refusal",
+      "object": "what the participant is trying to obtain",
+      "engagement": "seeking what the participant needs from people and institutions",
+      "primary": {
+        "attractors": [
+          "The participant pursues something the world has no obligation to grant.",
+          "The participant keeps finding that the people and institutions they need have reasons of their own to say no.",
+          "The participant's way of asking shapes what remains open to them."
+        ],
+        "core": "No one is obliged to help the participant.",
+        "invariants": [
+          "Refusals follow from who is refusing and what the participant has done, never from arbitrary obstruction.",
+          "Access lost through the participant's conduct is not restored.",
+          "Help once refused is not offered again on the same terms.",
+          { "text": "The experience may end before the participant obtains what they want.", "intensity": [2, 5] }
+        ],
+        "secretRequired": false,
+        "secrets": [
+          "The reason behind most refusals is something the participant did early and did not notice.",
+          "What the participant is seeking is not what they need, and someone refusing them knows it."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while the people and institutions they need are free to say no",
+          "while what they need is not theirs to demand"
+        ],
+        "invariants": [
+          "Those who could help with {object} have reasons of their own to refuse, and access lost through the participant's conduct stays lost.",
+          "The world owes the participant no cooperation in {engagement}."
+        ],
+        "attractors": [
+          "{engagement} depends on cooperation the world does not owe the participant."
+        ],
+        "secrets": [
+          "Someone who could help with {object} has already decided not to, for a reason the participant can only infer."
+        ]
+      }
+    },
+    {
+      "id": "arch.dissonance",
+      "object": "the position the participant has to take up",
+      "engagement": "arguing from inside a view the participant does not hold",
+      "primary": {
+        "attractors": [
+          "The participant becomes more persuasive on behalf of a position they reject.",
+          "The participant has to think from inside a worldview well enough that caricature stops working.",
+          "The participant finds reasons within a view they oppose that they cannot simply dismiss."
+        ],
+        "core": "The view the participant must inhabit appears in its strongest form, held by intelligent people with real reasons.",
+        "invariants": [
+          "Using the view carelessly fails inside the world.",
+          "Nothing in the work declares which view is right.",
+          "Inhabiting the view never asks the participant to endorse it outside the fiction.",
+          { "text": "The participant's competence in the view has consequences for people who are not present.", "intensity": [3, 5] }
+        ],
+        "secretRequired": false,
+        "secrets": [
+          "The view the participant rejects is protecting something the participant also cares about."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while making sense of their situation requires thinking in a way they reject",
+          "while the strongest case at hand belongs to a view they do not hold"
+        ],
+        "invariants": [
+          "Handling {object} well requires the participant to reason competently from inside a view they do not hold, met in its strongest form.",
+          "The strongest case bearing on {object} belongs to a view the participant rejects, and it is never reduced to a caricature."
+        ],
+        "attractors": [
+          "The participant finds that {engagement} goes better when they borrow the reasoning of a view they reject."
+        ],
+        "secrets": []
+      }
+    },
+    {
+      "id": "arch.contamination",
+      "object": "what the participant came to observe",
+      "engagement": "observing what the participant came to study",
+      "primary": {
+        "attractors": [
+          "What the participant came to study begins reorganizing around the participant's presence.",
+          "The participant's questions start to become part of the answers they receive.",
+          "The more closely the participant looks, the more what they are looking at changes."
+        ],
+        "core": "Every change in what the participant observes traces to something the participant actually did or said.",
+        "invariants": [
+          "What the participant observes has dynamics of its own; the participant bends them without controlling them.",
+          "No one tells the participant that they are the cause.",
+          "What has changed does not change back because the participant regrets it."
+        ],
+        "secretRequired": false,
+        "secrets": [
+          "Something the participant recorded as an original feature of what they observed was produced by their arrival."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while their presence quietly changes what they are dealing with",
+          "while the act of engaging leaves traces in what they engage"
+        ],
+        "invariants": [
+          "The participant's presence leaves traces in whatever bears on {object}; the traces follow from what they actually did, and no one announces them.",
+          "Whatever the participant changes in relation to {object} stays changed, even when they regret it."
+        ],
+        "attractors": [
+          "{engagement} changes the very thing the participant is trying to understand."
+        ],
+        "secrets": [
+          "Part of what the participant takes as given about {object} exists only because the participant arrived."
+        ]
+      }
+    },
+    {
+      "id": "arch.mirror",
+      "object": "the way the participant conducts themselves",
+      "engagement": "the participant's everyday conduct toward others",
+      "primary": {
+        "attractors": [
+          "The people and circumstances around the participant begin to reflect back the ways the participant treats them.",
+          "The participant's habits of attention and choice start appearing in the world as consequences and echoes.",
+          "The participant is drawn toward judging others for patterns they have displayed themselves."
+        ],
+        "core": "Only what the participant does in this conversation is reflected; nothing is drawn from outside it.",
+        "invariants": [
+          "No one names, labels or evaluates the participant's character.",
+          "What comes back to the participant arrives through the world's own evidence.",
+          "Interpretation is left to the participant."
+        ],
+        "secretRequired": false,
+        "secrets": [
+          "Someone in the world has been paying closer attention to the participant's conduct than to anything the participant said.",
+          "A pattern the participant notices in others began with something the participant did."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while how they conduct themselves begins to come back to them",
+          "while their own habits start to surface in what they meet"
+        ],
+        "invariants": [
+          "How the participant handles {object} returns to them through the world, drawn only from this conversation and never labeled.",
+          "Something the participant actually did in relation to {object} comes back to them without comment."
+        ],
+        "attractors": [
+          "Something about how the participant handles {object} begins to surface in the world around them."
+        ],
+        "secrets": [
+          "Someone has been watching how the participant handles {object} more closely than the participant realizes."
+        ]
+      }
+    },
+    {
+      "id": "arch.immersion",
+      "object": "the participant's sense of how this world works",
+      "engagement": "learning how this world works by living in it",
+      "primary": {
+        "attractors": [
+          "The participant comes to anticipate how this world will respond before anyone tells them.",
+          "The participant's assumptions from elsewhere keep meeting this world's own logic.",
+          "The participant gradually acquires the instincts of someone who belongs here."
+        ],
+        "core": "The world's customs and rules are learned through consequence and people, never through explanation.",
+        "invariants": [
+          "The world's customs have reasons that make sense from inside.",
+          "Incomplete information is normal here.",
+          "The world does not bend toward the participant's assumptions."
+        ],
+        "secretRequired": false,
+        "secrets": [
+          "Something everyone here treats as too obvious to mention is what the participant most needs to understand."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while the world around them keeps a logic of its own",
+          "while what counts as sensible here is learned only through consequence"
+        ],
+        "invariants": [
+          "What matters about {object} is learned through consequence and the people of this world, never by being told.",
+          "Whatever bears on {object} follows this world's own customs, which make sense from inside and do not bend toward the participant's assumptions."
+        ],
+        "attractors": [
+          "The participant's handling of {object} slowly acquires the instincts of this world."
+        ],
+        "secrets": []
+      }
+    },
+    {
+      "id": "arch.discovery",
+      "object": "the methods the participant relies on",
+      "engagement": "working a problem with the methods the participant has",
+      "primary": {
+        "attractors": [
+          "The participant needs an idea before anyone names it.",
+          "The participant's methods handle a problem that matters here badly, and fail in ways that point somewhere.",
+          "The participant's attempts accumulate toward a way of seeing the problem that no one has given them."
+        ],
+        "core": "No one explains the needed idea in advance.",
+        "invariants": [
+          "Inadequate attempts fail visibly and informatively.",
+          "The idea is named only after the participant has struggled toward it, if it is named at all.",
+          "The problem matters inside the world, not only as an exercise."
+        ],
+        "secretRequired": false,
+        "secrets": [
+          "The idea the participant needs is already in use somewhere in this world, unnamed and unrecognized."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while handling their situation well requires an idea no one has named",
+          "while their usual ways of reasoning keep failing them"
+        ],
+        "invariants": [
+          "Doing justice to {object} requires an idea the participant must reach before anyone names it.",
+          "The familiar ways of reasoning about {object} fail visibly, and the failures point somewhere."
+        ],
+        "attractors": [
+          "The participant's usual ways of reasoning about {object} fail in ways that point toward a better way of seeing."
+        ],
+        "secrets": []
+      }
+    },
+    {
+      "id": "arch.inhabitation",
+      "object": "the participant's place beside a story already known",
+      "engagement": "living at the margin of a known story",
+      "primary": {
+        "attractors": [
+          "The participant's life is shaped by a story everyone around them is inside and no one can see whole.",
+          "The participant is drawn toward the center of a known story they can never occupy.",
+          "Small choices at the edge of a known story start to carry its weight."
+        ],
+        "core": "The participant never becomes the known story's protagonist.",
+        "invariants": [
+          "The known story's established facts and weight hold; invention lives in what it leaves unsaid.",
+          "No protected text is reproduced.",
+          "Figures from the known story have their own views and are not guides."
+        ],
+        "secretRequired": false,
+        "secrets": [
+          "Something the participant witnesses at the margin is left out of every telling of the known story, for a reason."
+        ]
+      },
+      "secondary": {
+        "inflections": [
+          "while a larger known story presses in from just beyond their reach",
+          "while events that will be remembered unfold at the edge of their view"
+        ],
+        "invariants": [
+          "Everything bound up with {object} unfolds at the margin of a story already known, whose established facts hold.",
+          "A story larger than {object} is already known, and the participant never becomes its protagonist."
+        ],
+        "attractors": [
+          "{engagement} keeps brushing against the edges of a story already known."
+        ],
+        "secrets": []
+      }
+    }
+  ]
+}

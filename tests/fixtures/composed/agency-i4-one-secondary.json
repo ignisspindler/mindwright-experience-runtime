@@ -1,0 +1,73 @@
+{
+  "input": {
+    "family": "agency",
+    "setting": {
+      "path": [
+        "fiction",
+        "science-fiction"
+      ],
+      "description": null,
+      "request": "Give me Star Trek!!"
+    },
+    "role": null,
+    "intensity": 4,
+    "boundaries": {
+      "sexual": "none",
+      "violence": "implied",
+      "language": "moderate",
+      "exclude": []
+    },
+    "seed": "golden-agency-i4-one-secondary-4"
+  },
+  "created": "2026-09-15T00:00:00Z",
+  "manifest": {
+    "mwer": "0.1",
+    "id": null,
+    "revision": 1,
+    "created": "2026-09-15T00:00:00Z",
+    "digest": null,
+    "provenance": {
+      "mode": "composed",
+      "composer": {
+        "version": "0.1.0",
+        "seed": "golden-agency-i4-one-secondary-4"
+      }
+    },
+    "visible": {
+      "family": "agency",
+      "setting": {
+        "path": [
+          "fiction",
+          "science-fiction"
+        ],
+        "description": null,
+        "request": "Give me Star Trek!!"
+      },
+      "role": null,
+      "intensity": 4,
+      "boundaries": {
+        "sexual": "none",
+        "violence": "implied",
+        "language": "moderate",
+        "exclude": []
+      }
+    },
+    "sealed": {
+      "primary": "arch.refusal",
+      "secondary": [
+        "arch.dissonance"
+      ],
+      "attractors": [
+        "The participant pursues something the world has no obligation to grant, while the strongest case at hand belongs to a view they do not hold."
+      ],
+      "invariants": [
+        "No one is obliged to help the participant.",
+        "Help once refused is not offered again on the same terms.",
+        "The strongest case bearing on what the participant is trying to obtain belongs to a view the participant rejects, and it is never reduced to a caricature."
+      ],
+      "secrets": [
+        "What the participant is seeking is not what they need, and someone refusing them knows it."
+      ]
+    }
+  }
+}

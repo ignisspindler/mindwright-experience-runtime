@@ -1,0 +1,75 @@
+{
+  "input": {
+    "family": "epistemic",
+    "setting": {
+      "path": [
+        "history",
+        "north-atlantic"
+      ],
+      "description": "A remote lighthouse station in the early twentieth century.",
+      "request": null
+    },
+    "role": null,
+    "intensity": 3,
+    "boundaries": {
+      "sexual": "none",
+      "violence": "implied",
+      "language": "moderate",
+      "exclude": []
+    },
+    "seed": "golden-epistemic-i3-two-secondaries-1"
+  },
+  "created": "2026-09-15T00:00:00Z",
+  "manifest": {
+    "mwer": "0.1",
+    "id": null,
+    "revision": 1,
+    "created": "2026-09-15T00:00:00Z",
+    "digest": null,
+    "provenance": {
+      "mode": "composed",
+      "composer": {
+        "version": "0.1.0",
+        "seed": "golden-epistemic-i3-two-secondaries-1"
+      }
+    },
+    "visible": {
+      "family": "epistemic",
+      "setting": {
+        "path": [
+          "history",
+          "north-atlantic"
+        ],
+        "description": "A remote lighthouse station in the early twentieth century.",
+        "request": null
+      },
+      "role": null,
+      "intensity": 3,
+      "boundaries": {
+        "sexual": "none",
+        "violence": "implied",
+        "language": "moderate",
+        "exclude": []
+      }
+    },
+    "sealed": {
+      "primary": "arch.mystery",
+      "secondary": [
+        "arch.ontology",
+        "arch.immersion"
+      ],
+      "attractors": [
+        "The participant gathers evidence faster than any single explanation can absorb it, while a distinction they rely on quietly fails to hold."
+      ],
+      "invariants": [
+        "The evidence stays consistent with more than one explanation for a long time, and some of it is noise.",
+        "No one the participant can reach knows the whole of what happened.",
+        "Making sense of the explanation the participant is building depends on a distinction that does not hold in this world.",
+        "Whatever bears on the explanation the participant is building follows this world's own customs, which make sense from inside and do not bend toward the participant's assumptions."
+      ],
+      "secrets": [
+        "What happened has an ordinary cause and a significant consequence, and the two are easy to confuse."
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "input": {
+    "family": "world",
+    "setting": {
+      "path": [
+        "literature",
+        "myth"
+      ],
+      "description": "Ithaca while Odysseus is away.",
+      "request": null
+    },
+    "role": null,
+    "intensity": 5,
+    "boundaries": {
+      "sexual": "none",
+      "violence": "implied",
+      "language": "moderate",
+      "exclude": [
+        "harm to animals"
+      ]
+    },
+    "seed": "golden-world-i5-two-secondaries-2"
+  },
+  "created": "2026-09-15T00:00:00Z",
+  "manifest": {
+    "mwer": "0.1",
+    "id": null,
+    "revision": 1,
+    "created": "2026-09-15T00:00:00Z",
+    "digest": null,
+    "provenance": {
+      "mode": "composed",
+      "composer": {
+        "version": "0.1.0",
+        "seed": "golden-world-i5-two-secondaries-2"
+      }
+    },
+    "visible": {
+      "family": "world",
+      "setting": {
+        "path": [
+          "literature",
+          "myth"
+        ],
+        "description": "Ithaca while Odysseus is away.",
+        "request": null
+      },
+      "role": null,
+      "intensity": 5,
+      "boundaries": {
+        "sexual": "none",
+        "violence": "implied",
+        "language": "moderate",
+        "exclude": [
+          "harm to animals"
+        ]
+      }
+    },
+    "sealed": {
+      "primary": "arch.inhabitation",
+      "secondary": [
+        "arch.mirror",
+        "arch.constraint"
+      ],
+      "attractors": [
+        "Small choices at the edge of a known story start to carry its weight, while their own habits start to surface in what they meet."
+      ],
+      "invariants": [
+        "The participant never becomes the known story's protagonist.",
+        "No protected text is reproduced.",
+        "How the participant handles the participant's place beside a story already known returns to them through the world, drawn only from this conversation and never labeled.",
+        "Living at the margin of a known story costs something else the participant values, and what is given up stays given up."
+      ],
+      "secrets": [
+        "Something the participant witnesses at the margin is left out of every telling of the known story, for a reason.",
+        "Someone has been watching how the participant handles the participant's place beside a story already known more closely than the participant realizes."
+      ]
+    }
+  }
+}

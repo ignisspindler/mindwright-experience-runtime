@@ -14,6 +14,7 @@ export function loadCatalog() {
   return {
     schema: readRepoJSON('schema/manifest.schema.json'),
     vocabulary: loadVocabularyData(),
+    grammar: readRepoJSON('composer/grammar.json'),
     runtime: {
       kernel: readRepoFile('runtime/kernel.md'),
       cards: Object.fromEntries(markdownFiles('runtime/cards').map(([name, text]) => [`arch.${name}`, text])),
