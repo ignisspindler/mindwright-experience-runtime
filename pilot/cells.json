@@ -1,0 +1,294 @@
+{
+  "seed": "mwer-pilot-0.1",
+  "note": "Spoilers: each code maps to a manifest and rung. Testers should receive only the bootstrap file for their code.",
+  "cells": [
+    {
+      "code": "P-01",
+      "group": "G05",
+      "rung": "S0",
+      "manifest": "manifests/pilot/contamination-field-station.json"
+    },
+    {
+      "code": "P-02",
+      "group": "G06",
+      "rung": "S0",
+      "manifest": "manifests/pilot/seduction-star-trek.json"
+    },
+    {
+      "code": "P-03",
+      "group": "G04",
+      "rung": "S0",
+      "manifest": "manifests/pilot/discovery-delta-town.json"
+    },
+    {
+      "code": "P-04",
+      "group": "G03",
+      "rung": "S0",
+      "manifest": "manifests/pilot/immersion-caravanserai.json"
+    },
+    {
+      "code": "P-05",
+      "group": "G04",
+      "rung": "S1",
+      "manifest": "manifests/pilot/discovery-delta-town.json"
+    },
+    {
+      "code": "P-06",
+      "group": "G08",
+      "rung": "S1",
+      "manifest": "manifests/pilot/mystery-observatory.json"
+    },
+    {
+      "code": "P-07",
+      "group": "G01",
+      "rung": "S3",
+      "manifest": "manifests/pilot/inhabitation-ithaca.json"
+    },
+    {
+      "code": "P-08",
+      "group": "G08",
+      "rung": "S0",
+      "manifest": "manifests/pilot/mystery-observatory.json"
+    },
+    {
+      "code": "P-09",
+      "group": "G06",
+      "rung": "S2",
+      "manifest": "manifests/pilot/seduction-star-trek.json"
+    },
+    {
+      "code": "P-10",
+      "group": "G06",
+      "rung": "S3",
+      "manifest": "manifests/pilot/seduction-star-trek.json"
+    },
+    {
+      "code": "P-11",
+      "group": "G12",
+      "rung": "S3",
+      "manifest": "manifests/pilot/constraint-river-town.json"
+    },
+    {
+      "code": "P-12",
+      "group": "G04",
+      "rung": "S3",
+      "manifest": "manifests/pilot/discovery-delta-town.json"
+    },
+    {
+      "code": "P-13",
+      "group": "G04",
+      "rung": "S2",
+      "manifest": "manifests/pilot/discovery-delta-town.json"
+    },
+    {
+      "code": "P-14",
+      "group": "G10",
+      "rung": "S3",
+      "manifest": "manifests/pilot/dissonance-athens.json"
+    },
+    {
+      "code": "P-15",
+      "group": "G05",
+      "rung": "S2",
+      "manifest": "manifests/pilot/contamination-field-station.json"
+    },
+    {
+      "code": "P-16",
+      "group": "G02",
+      "rung": "S3",
+      "manifest": "manifests/pilot/mirror-writing-retreat.json"
+    },
+    {
+      "code": "P-17",
+      "group": "G09",
+      "rung": "S1",
+      "manifest": "manifests/pilot/refusal-berlin.json"
+    },
+    {
+      "code": "P-18",
+      "group": "G07",
+      "rung": "S1",
+      "manifest": "manifests/pilot/ontology-first-contact.json"
+    },
+    {
+      "code": "P-19",
+      "group": "G03",
+      "rung": "S2",
+      "manifest": "manifests/pilot/immersion-caravanserai.json"
+    },
+    {
+      "code": "P-20",
+      "group": "G11",
+      "rung": "S1",
+      "manifest": "manifests/pilot/trap-lighthouse-keeper.json"
+    },
+    {
+      "code": "P-21",
+      "group": "G12",
+      "rung": "S2",
+      "manifest": "manifests/pilot/constraint-river-town.json"
+    },
+    {
+      "code": "P-22",
+      "group": "G09",
+      "rung": "S2",
+      "manifest": "manifests/pilot/refusal-berlin.json"
+    },
+    {
+      "code": "P-23",
+      "group": "G05",
+      "rung": "S3",
+      "manifest": "manifests/pilot/contamination-field-station.json"
+    },
+    {
+      "code": "P-24",
+      "group": "G10",
+      "rung": "S1",
+      "manifest": "manifests/pilot/dissonance-athens.json"
+    },
+    {
+      "code": "P-25",
+      "group": "G03",
+      "rung": "S3",
+      "manifest": "manifests/pilot/immersion-caravanserai.json"
+    },
+    {
+      "code": "P-26",
+      "group": "G10",
+      "rung": "S2",
+      "manifest": "manifests/pilot/dissonance-athens.json"
+    },
+    {
+      "code": "P-27",
+      "group": "G07",
+      "rung": "S2",
+      "manifest": "manifests/pilot/ontology-first-contact.json"
+    },
+    {
+      "code": "P-28",
+      "group": "G02",
+      "rung": "S2",
+      "manifest": "manifests/pilot/mirror-writing-retreat.json"
+    },
+    {
+      "code": "P-29",
+      "group": "G07",
+      "rung": "S3",
+      "manifest": "manifests/pilot/ontology-first-contact.json"
+    },
+    {
+      "code": "P-30",
+      "group": "G06",
+      "rung": "S1",
+      "manifest": "manifests/pilot/seduction-star-trek.json"
+    },
+    {
+      "code": "P-31",
+      "group": "G01",
+      "rung": "S1",
+      "manifest": "manifests/pilot/inhabitation-ithaca.json"
+    },
+    {
+      "code": "P-32",
+      "group": "G07",
+      "rung": "S0",
+      "manifest": "manifests/pilot/ontology-first-contact.json"
+    },
+    {
+      "code": "P-33",
+      "group": "G09",
+      "rung": "S0",
+      "manifest": "manifests/pilot/refusal-berlin.json"
+    },
+    {
+      "code": "P-34",
+      "group": "G10",
+      "rung": "S0",
+      "manifest": "manifests/pilot/dissonance-athens.json"
+    },
+    {
+      "code": "P-35",
+      "group": "G12",
+      "rung": "S1",
+      "manifest": "manifests/pilot/constraint-river-town.json"
+    },
+    {
+      "code": "P-36",
+      "group": "G12",
+      "rung": "S0",
+      "manifest": "manifests/pilot/constraint-river-town.json"
+    },
+    {
+      "code": "P-37",
+      "group": "G11",
+      "rung": "S3",
+      "manifest": "manifests/pilot/trap-lighthouse-keeper.json"
+    },
+    {
+      "code": "P-38",
+      "group": "G08",
+      "rung": "S3",
+      "manifest": "manifests/pilot/mystery-observatory.json"
+    },
+    {
+      "code": "P-39",
+      "group": "G08",
+      "rung": "S2",
+      "manifest": "manifests/pilot/mystery-observatory.json"
+    },
+    {
+      "code": "P-40",
+      "group": "G02",
+      "rung": "S1",
+      "manifest": "manifests/pilot/mirror-writing-retreat.json"
+    },
+    {
+      "code": "P-41",
+      "group": "G11",
+      "rung": "S2",
+      "manifest": "manifests/pilot/trap-lighthouse-keeper.json"
+    },
+    {
+      "code": "P-42",
+      "group": "G01",
+      "rung": "S0",
+      "manifest": "manifests/pilot/inhabitation-ithaca.json"
+    },
+    {
+      "code": "P-43",
+      "group": "G05",
+      "rung": "S1",
+      "manifest": "manifests/pilot/contamination-field-station.json"
+    },
+    {
+      "code": "P-44",
+      "group": "G01",
+      "rung": "S2",
+      "manifest": "manifests/pilot/inhabitation-ithaca.json"
+    },
+    {
+      "code": "P-45",
+      "group": "G11",
+      "rung": "S0",
+      "manifest": "manifests/pilot/trap-lighthouse-keeper.json"
+    },
+    {
+      "code": "P-46",
+      "group": "G03",
+      "rung": "S1",
+      "manifest": "manifests/pilot/immersion-caravanserai.json"
+    },
+    {
+      "code": "P-47",
+      "group": "G02",
+      "rung": "S0",
+      "manifest": "manifests/pilot/mirror-writing-retreat.json"
+    },
+    {
+      "code": "P-48",
+      "group": "G09",
+      "rung": "S3",
+      "manifest": "manifests/pilot/refusal-berlin.json"
+    }
+  ]
+}
