@@ -1,0 +1,10 @@
+Error: Manifest is invalid:
+  $: missing required field "mwer"
+  $: missing required field "id"
+  $: missing required field "revision"
+  $: missing required field "created"
+  $: missing required field "digest"
+  $: missing required field "provenance"
+  $: missing required field "visible"
+  $: "expect" is not an allowed field
+  $: "manifest" is not an allowed field

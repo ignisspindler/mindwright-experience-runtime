@@ -61,7 +61,7 @@ Want to take part? Start with [`pilot/README.md`](pilot/README.md), and don't re
 | [`schema/`](schema/) | The thin manifest schema |
 | [`manifests/`](manifests/) | Manifests, including the twelve pilot drafts (spoilers) |
 | [`pilot/`](pilot/) | Tester guide, consent, reflection, reading guide, plays and bootstraps (spoilers after each file's divider) |
-| [`tools/`](tools/) | `validate`, `project` (assemble a bootstrap) and `pilot` (build the pilot) |
+| [`tools/`](tools/) | `validate`, `project` (assemble a bootstrap) and `pilot` (build the pilot). The semantics live in `tools/core/`, which runs in Node or a browser from supplied data; `tools/lib/` adapts it to this repository's files |
 | [`EXPERIMENT-PLAN.md`](EXPERIMENT-PLAN.md), [`FORMALISM-LOG.md`](FORMALISM-LOG.md), [`DEVIATIONS.md`](DEVIATIONS.md) | Research design, the evidence rule for adding structure, and departures from the original brief |
 
 ```bash

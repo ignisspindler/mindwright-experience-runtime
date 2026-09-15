@@ -1,0 +1,30 @@
+ok    tests/fixtures/valid/dimensions.json
+      digest: sha256:b2508c6bebfad22ab88fb40ebf6aec0a8b413b48b7b6981721a46ab0f39fcf23
+ok    tests/fixtures/valid/s0-frame.json
+      digest: sha256:8a3e07dc85b7a94d92d3c89077ae7e156407e5f931160fe4b5bf8d0c381bb481
+ok    tests/fixtures/valid/s3-seduction.json
+      digest: sha256:c4075c3317d3dd1c743144f5e14bf1f7305dc811b813f761edb803df2a70791e
+ok    manifests/pilot/constraint-river-town.json
+      digest: sha256:5fa4a04fcff1e2a705ea0a9d3973aeb550e13ee4ab78acbf5593a6472ff80f0c
+ok    manifests/pilot/contamination-field-station.json
+      digest: sha256:52c5b550737aec1c673d571a5ae69f467b4036905cae6da978e6b586d566ca43
+ok    manifests/pilot/discovery-delta-town.json
+      digest: sha256:9ccfcb58afc5455cef1f0c6fb76fbd25197af388cebc094f8749230865bc45b4
+ok    manifests/pilot/dissonance-athens.json
+      digest: sha256:c80bdc7dc20075eecea664a1f217d59f533d374d38589df1724244c6ba32d03f
+ok    manifests/pilot/immersion-caravanserai.json
+      digest: sha256:74b6ce43963a276594abdac403c673f95b6543c3bcf7556d9dfc99f74614a208
+ok    manifests/pilot/inhabitation-ithaca.json
+      digest: sha256:adec0cdc8f64f97252ae2e3b8e79633b3437cd429d9d911f6b43d8abcdd99b3c
+ok    manifests/pilot/mirror-writing-retreat.json
+      digest: sha256:4be3fe0718164d3450d185951859a1f18e98d2c7da038c3dc05cdb3db05609a1
+ok    manifests/pilot/mystery-observatory.json
+      digest: sha256:c1a222f17570b493f5e54380fb3e20013dae1ad277b0fe1c871ee743665ec173
+ok    manifests/pilot/ontology-first-contact.json
+      digest: sha256:03234b61f9d40eec27e472ce77d011c5574f0863336b74f89c1facd3e18b5543
+ok    manifests/pilot/refusal-berlin.json
+      digest: sha256:72bf3af3698116c6803c1b57ce18e0e96395d8d35358df2994666006ae84ecf1
+ok    manifests/pilot/seduction-star-trek.json
+      digest: sha256:e19c6ba67ed4daa9ed5f42b72277d6ee5de08d28ae585c5a8144112c8ee74b72
+ok    manifests/pilot/trap-lighthouse-keeper.json
+      digest: sha256:8b72b836fdbaaa8f545342efdf081d518ed1884cb58da35aa2b543597238473a

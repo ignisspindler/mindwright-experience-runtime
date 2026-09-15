@@ -1,0 +1,20 @@
+FAIL  tests/fixtures/invalid/digest-mismatch.json
+      error: $: missing required field "mwer"
+      error: $: missing required field "id"
+      error: $: missing required field "revision"
+      error: $: missing required field "created"
+      error: $: missing required field "digest"
+      error: $: missing required field "provenance"
+      error: $: missing required field "visible"
+      error: $: "expect" is not an allowed field
+      error: $: "manifest" is not an allowed field
+FAIL  tests/fixtures/invalid/primary-wrong-family.json
+      error: $: missing required field "mwer"
+      error: $: missing required field "id"
+      error: $: missing required field "revision"
+      error: $: missing required field "created"
+      error: $: missing required field "digest"
+      error: $: missing required field "provenance"
+      error: $: missing required field "visible"
+      error: $: "expect" is not an allowed field
+      error: $: "manifest" is not an allowed field

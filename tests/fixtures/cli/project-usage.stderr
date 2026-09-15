@@ -1,0 +1,1 @@
+usage: node tools/project.js <manifest.json> [--rung S0|S1|S2|S3] [--label TEXT] [--return-url URL] [--out FILE]

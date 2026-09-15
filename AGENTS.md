@@ -21,5 +21,6 @@ If someone has handed you a MindWright bootstrap and wants to take part in an ex
 ## Working
 
 - `npm test` runs every check. Tools are dependency-free Node ESM.
+- MWER semantics (manifest validation, truncation, canonical JSON, digests, bootstrap projection, leak checks) live only in `tools/core/`. Core code takes the schema, vocabulary and runtime texts as plain data and must never import `node:` modules, read files or touch process state, so a browser can run it unchanged; a test enforces this. Filesystem and CLI concerns belong in the Node adapters under `tools/lib/`. Never reimplement semantics in an adapter.
 - Regenerate pilot bootstraps with the `project` tool after changing runtime text or manifests, and commit them with the change.
 - Human-facing prose: plain, flowing, no em dashes.

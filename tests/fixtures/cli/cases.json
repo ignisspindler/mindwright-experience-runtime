@@ -1,0 +1,87 @@
+[
+  {
+    "name": "project-rung-label",
+    "args": [
+      "tools/project.js",
+      "tests/fixtures/valid/s3-seduction.json",
+      "--rung",
+      "S2",
+      "--label",
+      "P-01"
+    ],
+    "status": 0
+  },
+  {
+    "name": "project-dimensions-return-url",
+    "args": [
+      "tools/project.js",
+      "tests/fixtures/valid/dimensions.json",
+      "--return-url",
+      "https://example.org/back"
+    ],
+    "status": 0
+  },
+  {
+    "name": "project-s0-pilot",
+    "args": [
+      "tools/project.js",
+      "manifests/pilot/trap-lighthouse-keeper.json",
+      "--rung",
+      "S0"
+    ],
+    "status": 0
+  },
+  {
+    "name": "project-leak-refused",
+    "args": [
+      "tools/project.js",
+      "tests/fixtures/valid/s3-seduction.json",
+      "--label",
+      "Seduction pilot"
+    ],
+    "status": 1
+  },
+  {
+    "name": "project-invalid-manifest",
+    "args": [
+      "tools/project.js",
+      "tests/fixtures/invalid/digest-mismatch.json"
+    ],
+    "status": 1,
+    "stderr": "error-message"
+  },
+  {
+    "name": "project-usage",
+    "args": [
+      "tools/project.js"
+    ],
+    "status": 2
+  },
+  {
+    "name": "validate-valid-with-digest",
+    "args": [
+      "tools/validate.js",
+      "--digest",
+      "tests/fixtures/valid",
+      "manifests/pilot"
+    ],
+    "status": 0
+  },
+  {
+    "name": "validate-invalid",
+    "args": [
+      "tools/validate.js",
+      "tests/fixtures/invalid/digest-mismatch.json",
+      "tests/fixtures/invalid/primary-wrong-family.json"
+    ],
+    "status": 1
+  },
+  {
+    "name": "validate-missing-path",
+    "args": [
+      "tools/validate.js",
+      "no/such/dir"
+    ],
+    "status": 0
+  }
+]
