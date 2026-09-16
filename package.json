@@ -1,6 +1,6 @@
 {
   "name": "mindwright-experience-runtime",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "MindWright Experience Runtime: tools for validating manifests and assembling bootstraps",
   "type": "module",

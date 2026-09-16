@@ -40,7 +40,7 @@ These were proposed during design and are not built. Each one names the failure 
 | **Second-order expectation primitives** | Suspicious participants neutralize the architecture even with frame-awareness guidance, and a prose expectation statement fixes it. |
 | **Dual-reading narration constraint** | Late reveals of structural secrets read as arbitrary or contradictory even with the "earn reinterpretation retroactively" guidance. |
 | **Narration reliability setting** | Models make narration lie where fair play was intended, or refuse unreliable narration where a score asks for it in prose. |
-| **Reveal and ending posture settings** | Prose invariants about endings are ignored (commentary added, endless drift) often enough to need a mapping. |
+| **Reveal and ending posture settings** | Prose invariants about endings are ignored (commentary added, endless drift) often enough to need a mapping. First instance seen 2026-09-16, in live testing: one long-form immersion performance opened a new conspiratorial arc after its principal shift had landed. One participant, one Experience, one model is below the bar for structure, so the cheap fix was taken instead (Kernel §9 wording). A mapping waits for recurrence across at least two models and two Experiences. |
 | **Presences or casting fields** | Characters homogenize, or invariants about a presence's motives fail without named presences. |
 | **Per-axis intensity caps as data** | The same intensity level produces wildly different amplitude across models, or level adherence is poor under the prose descriptions. |
 | **Length or pacing field** | Performances end far too early or run far too long for the work. |

@@ -92,3 +92,23 @@ test('the kernel stays small', () => {
   const words = countWords(stripComments(readRepoFile('runtime/kernel.md')));
   assert.ok(words <= 1000, `kernel is ${words} words`);
 });
+
+// Semantic completion lives in the Kernel, so it reaches every performance,
+// including S0 scores that name no architecture and load no card.
+test('every bootstrap carries the completion guidance and its exception', () => {
+  const text = assembleBootstrap(read('s0-frame.json'), { rung: 'S0' });
+  assert.ok(text.includes(end('KERNEL')));
+  assert.ok(!text.includes(end('GUIDANCE')), 'an S0 score loads no architecture card');
+  assert.ok(text.includes('end it rather than opening a new arc'));
+  assert.ok(text.includes('Prefer one landed transformation to serial escalation.'));
+  assert.ok(text.includes('Some works genuinely need more than one such shift'), 'the multiple-shift exception must survive');
+});
+
+// The stopping criterion is semantic. It must not harden into a plot template.
+test('completion guidance mandates no turn count, reveal or act structure', () => {
+  const kernel = stripComments(readRepoFile('runtime/kernel.md'));
+  assert.doesNotMatch(kernel, /\b\d+\s+turns?\b/i, 'no fixed turn count');
+  assert.doesNotMatch(kernel, /\breveals?\b/i, 'no required reveal');
+  assert.doesNotMatch(kernel, /\btwists?\b/i, 'no required twist');
+  assert.doesNotMatch(kernel, /\bthree[- ]act\b/i, 'no act structure');
+});
